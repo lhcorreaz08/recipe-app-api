@@ -16,3 +16,7 @@ docker-compose up
 
 # Ejecutar pruebas
 docker-compose run --rm app sh -c "python manage.py test"
+
+
+# Ejecutar core app
+docker-compose run --rm app sh -c "python manage.py startapp core"
